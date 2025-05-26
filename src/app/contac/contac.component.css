@@ -1,0 +1,43 @@
+.presentation-container {
+    position: relative;
+    overflow: hidden;
+    height: 100vh; /* Ajusta según tus necesidades */
+  }
+  
+  .floating-boxes-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  
+  .floating-box {
+    position: absolute;
+    background: rgba(59, 130, 246, 0.8); /* Azul con transparencia */
+    border: 1px solid rgba(59, 130, 246, 0.2); /* Borde azul suave */
+    border-radius: 8px;
+    animation: floatUp linear infinite;
+    bottom: -100px;
+    opacity: 0.7;
+    filter: blur(1px); /* Efecto difuminado suave */
+  }
+  
+  @keyframes floatUp {
+    0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(-150vh) rotate(360deg); /* Aumentamos la distancia */
+      opacity: 0;
+    }
+  }
+  
+  .content-container {
+    position: relative;
+    z-index: 1;
+    /* Tus estilos normales para el contenido */
+  }
+
+
+  /* Añade tus estilos existentes para text-container e image-container */
