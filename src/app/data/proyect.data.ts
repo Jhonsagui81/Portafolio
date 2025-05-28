@@ -55,9 +55,6 @@ export const PROJECTS: Proyect[] = [
             {icon:"assets/SaludPlus/tecnol/grafana.svg", name:"Grafana"},
         ],
         images: [
-          { main: 'assets/Olimpiada/image.png', thumbnail: 'assets/Olimpiada/image.png' },
-          { main: 'assets/Olimpiada/image.png', thumbnail: 'assets/Olimpiada/image.png' },
-          { main: 'assets/Olimpiada/image.png', thumbnail: 'assets/Olimpiada/image.png' },
           { main: 'assets/Olimpiada/image.png', thumbnail: 'assets/Olimpiada/image.png' }
         ],
         codigoFuente: 'https://github.com/Jhonsagui81/SIstemas-Operativos/tree/46247c3b03d7a2833c6e8713910c408d524ae444/Proyecto2'
@@ -68,7 +65,7 @@ export const PROJECTS: Proyect[] = [
         description: 'Aplicación web full-stack que integra gestión de tareas y almacenamiento de archivos en la nube, implementada de forma paralela en AWS y Azure para comparar servicios equivalentes. Destaca por su arquitectura resiliente, escalabilidad bajo demanda y despliegue 100% en la nube',
         technologies: [
             {icon:"assets/SaludPlus/tecnol/node.svg", name:"Node.js"},
-            {icon:"assets/SaludPlus/tecnol/C#.svg", name:"C#"},
+            {icon:"assets/SaludPlus/tecnol/Cp.svg", name:"C#"},
             {icon:"assets/SaludPlus/tecnol/type.svg", name:"Typescript"},
             {icon:"assets/SaludPlus/tecnol/aws.svg", name:"AWS"},
             {icon:"assets/SaludPlus/tecnol/azure.svg", name:"Azure"}
